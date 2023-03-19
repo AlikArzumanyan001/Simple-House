@@ -1,0 +1,24 @@
+.footer-cont{
+    width: 100%;
+}
+.footer-text{
+    color: #626364;
+    line-height: 1.8;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 991px) {
+    .G-container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .G-container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

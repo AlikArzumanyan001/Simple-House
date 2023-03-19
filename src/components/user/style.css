@@ -1,0 +1,98 @@
+.cont-aftors{
+    margin-top: 60px;
+    width: 45%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.aftors-div{
+    width: 100%;
+}
+.aftors-img-cont{
+   width: 250px;
+}
+.aftors-img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aftors-name{
+    color: #1A6692;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.aftors-specialist{
+    padding-top: 15px;
+    color: #c39;
+    padding-left: 20px;
+}
+.aftors-info{
+    line-height: 1.8;
+    color: #626364;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+.aftors-icon{
+    padding: 6px 8px 6px 8px;
+    font-size: 22px;
+    margin-left: 17px;
+    cursor: pointer;
+    color: grey;
+}
+.aftors-icon:hover{
+    transition: 0.4s;
+    color: white;
+    background-color: gray;
+}
+@media screen and (max-width: 1200px) {
+    .cont-aftors{
+        padding: 10px;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .cont-aftors{
+        width: 90%;
+    }
+    .aftors-div{
+        width: 100%;
+    }
+    .aftors-img{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 771px) {
+    .cont-aftors{
+        width: 95%;
+    }
+    .aftors-img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .cont-aftors{
+        width: 100%;
+    }
+    .aftors-img{
+        width: 100%;
+        height: auto;
+    }
+   
+}
+
+@media screen and (max-width: 320px) {
+    .cont-aftors{
+        display: block;
+    }
+    .aftors-img-cont{
+        margin: 0 auto;
+        width: 220px;
+    }
+    .aftors-div{
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+}

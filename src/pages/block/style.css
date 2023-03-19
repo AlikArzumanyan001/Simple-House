@@ -1,0 +1,167 @@
+body{
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block-container{
+    background-color: #fff;
+}
+.block-cont{
+    background-color: #fff;
+}
+.block-simple-name{
+    text-align: center;
+    padding-top: 50px;
+}
+.block-simple-text{
+    text-align: center;
+    width: 50%;
+    padding-top: 40px;
+    color: gray;
+    margin-left: 25%;
+}
+.block-food-btn{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 50%;
+}
+.block-btn-pizza{
+    border: 1px solid #2F956D;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: #2F956D;
+    text-decoration: none;
+}
+
+.block-btn-salad{
+    text-decoration: none;
+    margin-left: 10px;
+    border: 1px solid #2F956D;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+}
+.block-btn-salad:hover{
+    border: 1px solid #2F956D;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: #2F956D;
+    text-decoration: none;
+    }
+
+.block-food{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block-avocado{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block-avocado-img{
+    margin-left: 5%;
+    width: 44%;
+    height: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: center;
+}
+.block-avocado-text{
+    width: 40%;
+    margin-left: 5%;
+}
+.block-avocado-name{
+    margin-top: 10px;
+    color: #1a6692;
+}
+.block-text-avo{
+    color: #626364;
+    padding-top: 20px;
+    line-height: 1.8;
+    font-weight: 100;
+    font-size: 17px;
+}
+.block-avocado-btn{
+    padding: 10px 20px 10px 20px;
+    width: 12%;
+    margin-left: 75%;
+    border: 1px solid darkgray;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+.block-avocado-btn:hover{
+    background-color: darkgray;
+    color: white;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+    .block-food{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .block-avocado{
+        display: block;
+    }
+    .block-avocado-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .block-avocado-text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .block-avocado-btn{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .G-container{
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+    .block-food-btn{
+        width: 100%;
+    }
+    .block-avocado-btn{
+        width: 35%;
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .G-container{
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+    .block-simple-text{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .block-food-btn{
+        width: 100%;
+    }
+    .block-avocado-img{
+        margin: 0 auto;
+        width: 95%;
+    }
+    .block-avocado-text{
+        margin: 0 auto;
+        width: 95%;
+    }
+    .block-avocado-btn{
+        width: 40%;
+        margin-left: 55%;
+    }
+}

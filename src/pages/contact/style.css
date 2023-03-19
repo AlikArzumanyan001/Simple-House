@@ -1,0 +1,168 @@
+.contact-container{
+    background-color: white;
+}
+.contact-cont-name{
+    margin: 0 auto;
+    width: 100%;
+}
+.cont-name{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 100;
+}
+.cont-text{
+    text-align: center;
+    width: 50%;
+    padding-top: 40px;
+    color: gray;
+    margin-left: 25%;
+}
+.contact-block-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.contact-sign{
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-inp-name{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ced4da;
+    margin-bottom: 20px;
+    padding: 8px 5px 8px 5px;
+    width: 80%;
+    color: gray;
+}
+.contact-inp-email{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ced4da;
+    margin-bottom: 20px;
+    padding: 8px 5px 8px 5px;
+    width: 80%;
+    color: gray;
+}
+.contact-inp-message{
+    margin-top: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ced4da;
+    width: 80%;
+    padding-bottom: 100px;
+    color: gray;
+}
+.contact-inp-btn{
+    width: 32%;
+    background-color: #319966;
+    color: white;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    margin-top: 35px;
+    cursor: pointer;
+    margin-left: 48%;
+}
+.contact-our-address{
+    margin-top: 80px;
+    margin-left: 10%;
+    width: 40%;
+}
+.contact-address-name{
+    margin-bottom: 40px;
+    color: #319966;
+}
+.contact-address-text{
+    line-height: 1.8;
+    color: #626364;
+    width: 65%;
+    margin-bottom: 50px;
+}
+.contact-telephon{
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 20px;
+}
+.telephon{
+    color: #626364;
+    padding-left: 25px;
+}
+.contact-sms{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.sms{
+    color: #626364;
+    padding-left: 25px;
+}
+.contact-map{
+    width: 80%;
+    margin-left: 10%;
+}
+.map{
+    width: 100%;
+    height: 500px;
+}
+.faqs{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 100;
+}
+.faqs-text{
+    text-align: center;
+    width: 50%;
+    padding-top: 40px;
+    color: gray;
+    margin-left: 25%;
+}
+
+.icon-phone{
+    font-size: 22px;
+    color: #319966;
+}
+.icon-envelope-o{
+    font-size: 22px;
+    color: #319966;
+}
+.contact-faqs{
+    padding-bottom: 40px;
+}
+@media screen and (max-width: 991px) {
+    .contact-block-cont{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contact-block-cont{
+        display: block;
+    }
+    .contact-sign{
+        width: 80%;
+    }
+    .contact-our-address{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cont-text{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .contact-sign{
+        width: 95%;
+        margin: 80px auto;
+    }
+    .contact-our-address{
+        width: 95%;
+        margin: 0 auto;
+        padding-left: 50px;
+    }
+}

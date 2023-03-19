@@ -1,0 +1,86 @@
+.header-cont-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    padding-top: 420px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.navbar-link-cont{
+    color: white;
+    text-align: end;
+    margin-top: 30px;
+    padding: 0 40px 0 15px;
+    font-size: 20px;
+    height: 77px;
+    padding-top: 10px;
+}
+.block{
+    width: 200px;
+    margin: 0 auto;
+    position: absolute;
+}
+.one{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5%;
+}
+.bleck{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.bar-text{
+    color: white;
+    padding-left: 90px;
+}
+.bar-text2{
+    color: white;
+    padding-left: 90px;
+}
+.nav-home{
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.nav-about{
+    color: white;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.nav-about:hover{
+    border-bottom: 1px solid white;
+}
+.nav-contact{
+    color: white;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.active{
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 600px) {
+    .header-cont-img{
+        padding-top: 380px;
+        display: block;
+    }
+    .navbar-link-cont{
+        text-align: center;
+    }
+}

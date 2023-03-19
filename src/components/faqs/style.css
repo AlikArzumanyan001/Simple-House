@@ -1,0 +1,40 @@
+.faqs-cont-btn{
+    border: 1px solid #d0d0d0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #999;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 40px;
+    font-weight: 100;
+}
+.faqs-cont-btn:hover{
+    transition: 0.9s;
+    color: #09c;
+}
+.faqs-p-btn{
+    width: 46%;
+    margin: auto;
+    padding-top: 20px;
+    color: #626364;
+    line-height: 1.8;
+    font-size: 17px;
+    display: none;
+}
+.faqs-p-text-btn{
+    width: 46%;
+    margin: auto;
+    padding-top: 20px;
+    color: #626364;
+    line-height: 1.8;
+    font-size: 17px;
+    display: block;
+}
+@media screen and (max-width: 991px) {
+    .faqs-cont-btn{
+        width: 70%;
+        margin: 40px auto;
+    }
+}
